@@ -2,7 +2,7 @@ module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "5.5.1"
  
-  name = "simple-eks-vpc"
+  name = "simple-eks-vpc-poc13"
   cidr = "10.0.0.0/16"
  
   azs             = ["us-east-2a", "us-east-2b"]
