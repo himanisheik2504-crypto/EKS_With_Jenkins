@@ -4,5 +4,5 @@ module "eks_cluster" {
   cluster_name    = "my-cluster-poc-13"
   cluster_version = "1.28"
   vpc_id          = module.vpc_main.vpc_id
-  vpc_subnets         = module.vpc_main.public_subnets
+  subnets         = module.vpc_main.public_subnets
 }
