@@ -1,4 +1,4 @@
-module "vpc_main" {
+module "eks_cluster" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "5.5.1"
  
